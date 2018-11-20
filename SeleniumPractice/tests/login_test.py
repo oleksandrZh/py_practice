@@ -1,21 +1,38 @@
 import unittest
+
+from SeleniumPractice.helpers.assertion_helper import AssertHelper
 from SeleniumPractice.helpers.driver_helper import *
-from SeleniumPractice.pages.login_page import *
-from SeleniumPractice.pages.signin_page import *
+from SeleniumPractice.helpers.login_helper import LoginHelper
+from SeleniumPractice.helpers.navigation_helper import NavigationHelper
+from SeleniumPractice.helpers.user_helper import *
 
 
 class LoginTest(unittest.TestCase):
+    app = None
 
-    def setUp(self):
-        self.driver = webdriver.Chrome("C:/Projects/webdrivers/chromedriver.exe")
-        self.driver.get("http://qa.jtalks.org/antarcticle/")
-        self.login_page = LoginPage(self.driver)
-        self.signin_page = SigninPage(self.driver)
+    def setUp(self, url="http://demo.guru99.com/v4/index.php"):
+        app = self.app = Application()
+        app.navigation_helper.open_main_page(url)
 
     def test_login(self):
-        self.assertEqual("Antarcticle QA instance", self.login_page.get_application_name())
-        self.login_page.click_sign_in_button()
-        self.signin_page.enter_user_name("Test")
+        self.user = get_valid_user()
+        self.assertEqual("Guru99 Bank", self.app.assertion_helper.get_product_name())
+        self.app.login_helper.login_to_site(self.user)
+        self.assertEqual(self.user.user_name, self.app.assertion_helper.get_manager_id())
+        
 
     def tearDown(self):
+        self.app.complete()
+
+
+# Test application that run test
+class Application():
+
+    def __init__(self):
+        self.driver = get_webdriver()
+        self.login_helper = LoginHelper(self.driver)
+        self.assertion_helper = AssertHelper(self.driver)
+        self.navigation_helper = NavigationHelper(self.driver)
+
+    def complete(self):
         self.driver.close()

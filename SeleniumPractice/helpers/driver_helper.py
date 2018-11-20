@@ -2,8 +2,8 @@ from selenium import webdriver
 
 
 class Driver:
-    def __init__(self):
-        self.driver = webdriver
+    # def __init__(self):
+    #    self.driver = webdriver
 
     def get_driver(self):
         if self.driver is None:
@@ -12,10 +12,10 @@ class Driver:
         else:
             return self.driver
 
-    def get_webdriver(self):
-        self.driver = webdriver.Chrome("C:/Projects/webdrivers/chromedriver.exe")
-        return self.driver
-
-    def get_main_page(self,url):
+    def get_main_page(self, url):
         self.driver.get(url)
 
+
+def get_webdriver():
+    # self.driver = webdriver.Chrome("C:/Projects/webdrivers/chromedriver.exe")
+    return webdriver.Chrome("C:/Projects/webdrivers/chromedriver.exe")
