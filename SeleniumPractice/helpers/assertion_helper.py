@@ -1,12 +1,10 @@
-from SeleniumPractice.pages.login_page import LoginPage
-from SeleniumPractice.pages.manager_page import ManagerHomePage
+from SeleniumPractice.helpers.base_helper import BaseHelper
 
 
-class AssertHelper:
+class AssertHelper(BaseHelper):
 
     def __init__(self, driver):
-        self.login_page = LoginPage(driver)
-        self.manager_page = ManagerHomePage(driver)
+        super().__init__(driver)
         self.driver = driver
 
     def get_product_name(self):
@@ -14,3 +12,6 @@ class AssertHelper:
 
     def get_manager_id(self):
         return self.manager_page.get_manager_id().split(' ')[-1]
+
+    def get_balance_for_account(self):
+        return self.balance_page.get_balance_amount_value()

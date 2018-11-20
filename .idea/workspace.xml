@@ -2,14 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7f23b9c3-020b-4e5f-92e7-b5f0d9782223" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Codewars_practice/sample_tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codewars_practice/sample_tests.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Codewars_practice/solutions.py" beforeDir="false" afterPath="$PROJECT_DIR$/Codewars_practice/solutions.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SeleniumPractice/tests/test_login.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/page_helper.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/helpers/user_helper.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/helpers/manager_helper.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/SeleniumPractice/locators/locators.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/locators/locators.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumPractice/pages/login_page.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/pages/login_page.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumPractice/tests/base_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/tests/base_test.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SeleniumPractice/tests/login_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/SeleniumPractice/tests/login_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/pages/signin_page.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/SeleniumPractice/tests/login_test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -30,111 +33,48 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
-          <entry key="py" value="100" />
+          <entry key="py" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="PLAIN_TEXT" value="1" />
-          <entry key="Python" value="100" />
+          <entry key="Python" value="134" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="31" />
-          <entry key="py" value="13954" />
+          <entry key="dummy" value="52" />
+          <entry key="py" value="17189" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="31" />
-          <entry key="Python" value="13954" />
+          <entry key="PLAIN_TEXT" value="52" />
+          <entry key="Python" value="17189" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/tests/login_test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="310">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-              <folding>
-                <element signature="e#0#55#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Codewars_practice/sample_tests.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="86" column="51" selection-start-line="86" selection-start-column="51" selection-end-line="86" selection-end-column="51" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/manager_page.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
-              <folding>
-                <element signature="e#0#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/user_helper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/locators/locators.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="289">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/SeleniumPractice/tests/test_get_account_balance.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#15#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -177,15 +117,24 @@
         <option value="$PROJECT_DIR$/SeleniumPractice/pages/manager_page.py" />
         <option value="$PROJECT_DIR$/Codewars_practice/sample_tests.py" />
         <option value="$PROJECT_DIR$/Codewars_practice/solutions.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/user_helper.py" />
         <option value="$PROJECT_DIR$/SeleniumPractice/pages/login_page.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py" />
         <option value="$PROJECT_DIR$/SeleniumPractice/tests/base_test.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/locators/locators.py" />
-        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/user_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/manager_helper.py" />
         <option value="$PROJECT_DIR$/SeleniumPractice/tests/login_test.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/application_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/pages/balance_page.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/tests/get_account_balance.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/locators/locators.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/pages/deposit_page.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/base_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/account_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/customer_halper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py" />
+        <option value="$PROJECT_DIR$/SeleniumPractice/tests/test_get_account_balance.py" />
       </list>
     </option>
   </component>
@@ -210,11 +159,6 @@
             <path>
               <item name="py_practice" type="b2602c69:ProjectViewProjectNode" />
               <item name="py_practice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="py_practice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="py_practice" type="462c0819:PsiDirectoryNode" />
-              <item name="Codewars_practice" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="py_practice" type="b2602c69:ProjectViewProjectNode" />
@@ -278,7 +222,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.Unittests for login_test.LoginTest">
+  <component name="RunManager" selected="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit">
     <configuration name="BaseTest" type="tests" factoryName="py.test">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -294,7 +238,7 @@
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for login_test.LoginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for SeleniumPractice.tests.test_get_account_balance.AccountTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -304,81 +248,81 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;login_test.LoginTest&quot;" />
+      <option name="_new_target" value="&quot;SeleniumPractice.tests.test_get_account_balance.AccountTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sample_tests.SampleTest.test_anagrams" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for SeleniumPractice.tests.test_login.LoginTest" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPractice/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sample_tests.SampleTest.test_anagrams&quot;" />
+      <option name="_new_target" value="&quot;SeleniumPractice.tests.test_login.LoginTest&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sample_tests.SampleTest.test_cakes" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPractice/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sample_tests.SampleTest.test_cakes&quot;" />
+      <option name="_new_target" value="&quot;test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sample_tests.SampleTest.test_find_missings" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPractice/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sample_tests.SampleTest.test_find_missings&quot;" />
+      <option name="_new_target" value="&quot;test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="Unittests for sample_tests.SampleTest.test_rgb" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+    <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="py_practice" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Codewars_practice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/SeleniumPractice/tests" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;sample_tests.SampleTest.test_rgb&quot;" />
+      <option name="_new_target" value="&quot;test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Python tests.BaseTest" />
-      <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_anagrams" />
-      <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_cakes" />
-      <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_find_missings" />
-      <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_rgb" />
-      <item itemvalue="Python tests.Unittests for login_test.LoginTest" />
+      <item itemvalue="Python tests.Unittests for SeleniumPractice.tests.test_login.LoginTest" />
+      <item itemvalue="Python tests.Unittests for SeleniumPractice.tests.test_get_account_balance.AccountTest" />
+      <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" />
+      <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" />
+      <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python tests.Unittests for login_test.LoginTest" />
-        <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_rgb" />
-        <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_find_missings" />
-        <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_cakes" />
-        <item itemvalue="Python tests.Unittests for sample_tests.SampleTest.test_anagrams" />
+        <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit" />
+        <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" />
+        <item itemvalue="Python tests.Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" />
+        <item itemvalue="Python tests.Unittests for SeleniumPractice.tests.test_login.LoginTest" />
+        <item itemvalue="Python tests.Unittests for SeleniumPractice.tests.test_get_account_balance.AccountTest" />
       </list>
     </recent_temporary>
   </component>
@@ -396,47 +340,47 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 15m 17s.xml">
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_add_to_existed_deposit - 2018.11.20 at 16h 07m 54s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_add_to_existed_deposit - 2018.11.20 at 16h 08m 46s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_add_to_existed_deposit - 2018.11.20 at 16h 09m 48s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_get_balance - 2018.11.20 at 16h 14m 03s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 16h 16m 34s.xml">
       <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 17m 06s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_get_balance - 2018.11.20 at 16h 19m 19s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 18m 24s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_get_balance - 2018.11.20 at 16h 20m 03s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_get_balance" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 18m 45s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_add_to_existed_deposit - 2018.11.20 at 16h 22m 11s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 20m 22s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_withdraw_from_existed_deposit - 2018.11.20 at 16h 22m 24s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_withdraw_from_existed_deposit" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 23m 18s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 24m 25s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 24m 42s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 25m 58s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_login_test_LoginTest - 2018.11.20 at 13h 27m 36s.xml">
-      <configuration name="Unittests for login_test.LoginTest" configurationId="tests" />
+    <history-entry file="Unittests_for_test_get_account_balance_AccountTest_test_manager_is_able_to_add_to_existed_deposit - 2018.11.20 at 16h 23m 06s.xml">
+      <configuration name="Unittests for test_get_account_balance.AccountTest.test_manager_is_able_to_add_to_existed_deposit" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1912" y="32" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12328767" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15173867" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.37201735" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329718" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.37201735" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3991323" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -500,6 +444,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="391">
           <caret line="26" column="16" lean-forward="true" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
+          <folding>
+            <element signature="e#23#58#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -535,16 +482,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="14" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/signin_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -586,13 +523,6 @@
     <entry file="file://$PROJECT_DIR$/test_env/pyvenv.cfg">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumPractice/locators/element.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -627,54 +557,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/login_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#46#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/user_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="59" lean-forward="true" selection-start-line="11" selection-start-column="59" selection-end-line="11" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/manager_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="21" />
-          <folding>
-            <element signature="e#0#66#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Codewars_practice/solutions.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="140" selection-start-line="139" selection-end-line="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="64" selection-start-line="15" selection-start-column="64" selection-end-line="15" selection-end-column="64" />
-          <folding>
-            <element signature="e#0#55#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -688,27 +574,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/signin_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/manager_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/deposit_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/balance_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="73" selection-start-column="73" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/pages/login_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="8" lean-forward="true" selection-start-line="12" selection-start-column="8" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#46#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumPractice/locators/locators.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="408">
+          <caret line="24" column="59" lean-forward="true" selection-start-line="24" selection-start-column="59" selection-end-line="24" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/application_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+          <folding>
+            <element signature="e#0#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/customer_halper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="26" column="22" lean-forward="true" selection-start-line="26" selection-start-column="22" selection-end-line="26" selection-end-column="22" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/page_helper.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py">
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/account_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SeleniumPractice/tests/login_test.py">
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/driver_helper.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="310">
-          <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="8" />
+        <state relative-caret-position="119">
+          <caret line="7" column="20" lean-forward="true" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/login_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/manager_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/navigation_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/assertion_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/helpers/base_helper.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="e#0#59#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/tests/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SeleniumPractice/tests/test_get_account_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="39" column="54" lean-forward="true" selection-start-line="39" selection-start-column="54" selection-end-line="39" selection-end-column="54" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
           </folding>
