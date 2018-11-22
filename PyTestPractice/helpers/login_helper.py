@@ -1,4 +1,4 @@
-from SeleniumPractice import BaseHelper
+from helpers.base_helper import BaseHelper
 
 
 class LoginHelper(BaseHelper):

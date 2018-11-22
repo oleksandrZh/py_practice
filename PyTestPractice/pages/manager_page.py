@@ -1,5 +1,5 @@
-from SeleniumPractice import ManagerHomeLocators
-from SeleniumPractice import BasePage
+from locators.locators import ManagerHomeLocators
+from pages.base_page import BasePage
 
 
 class ManagerHomePage(BasePage):

@@ -1,4 +1,5 @@
-from SeleniumPractice import BasePage, DepositPageLocators
+from locators.locators import DepositPageLocators
+from pages.base_page import BasePage
 
 
 class DepositPage(BasePage):

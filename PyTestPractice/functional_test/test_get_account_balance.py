@@ -1,7 +1,9 @@
 import unittest
 
-from SeleniumPractice.helpers.application_helper import Application
-from SeleniumPractice.helpers.manager_helper import get_valid_manager
+import pytest
+
+from helpers.application_helper import Application
+from helpers.manager_helper import get_valid_manager
 
 
 class AccountTest(unittest.TestCase):

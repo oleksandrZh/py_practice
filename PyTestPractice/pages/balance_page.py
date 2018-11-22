@@ -1,4 +1,5 @@
-from SeleniumPractice import BasePage, BalancePageLocators
+from locators.locators import BalancePageLocators
+from pages.base_page import BasePage
 
 
 class BalancePage(BasePage):

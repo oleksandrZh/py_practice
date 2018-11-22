@@ -1,7 +1,7 @@
-from SeleniumPractice import BalancePage
-from SeleniumPractice import DepositPage
-from SeleniumPractice import LoginPage
-from SeleniumPractice import ManagerHomePage
+from pages.balance_page import BalancePage
+from pages.deposit_page import DepositPage
+from pages.login_page import LoginPage
+from pages.manager_page import ManagerHomePage
 
 
 class BaseHelper:

@@ -1,4 +1,4 @@
-from SeleniumPractice import BaseHelper
+from helpers.base_helper import BaseHelper
 
 
 class AssertHelper(BaseHelper):
@@ -8,6 +8,7 @@ class AssertHelper(BaseHelper):
         self.driver = driver
 
     def get_product_name(self):
+        """Method returns product name from header"""
         return self.login_page.get_application_name()
 
     def get_manager_id(self):

@@ -1,8 +1,8 @@
-from SeleniumPractice import AccountHelper
-from SeleniumPractice import AssertHelper
-from SeleniumPractice import get_webdriver
-from SeleniumPractice import LoginHelper
-from SeleniumPractice import NavigationHelper
+from helpers.account_helper import AccountHelper
+from helpers.assertion_helper import AssertHelper
+from helpers.driver_helper import *
+from helpers.login_helper import LoginHelper
+from helpers.navigation_helper import NavigationHelper
 
 
 class Application:

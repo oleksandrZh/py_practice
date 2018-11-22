@@ -1,3 +1,7 @@
+from locators.locators import LoginPageLocators
+from pages.base_page import BasePage
+
+
 class LoginPage(BasePage):
 
     def get_application_name(self):
@@ -15,3 +19,4 @@ class LoginPage(BasePage):
     def click_login_button(self):
         element = self.driver.find_element(*LoginPageLocators.LOGIN_BUTTON)
         element.click()
+
